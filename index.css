@@ -1,0 +1,85 @@
+:root {
+    --primary-color: #e6e8e2;
+    --blue1: #778DA9;
+    --blue2: #415A77;
+    --blue3: #1B263B;
+    --blue4: #0D1B2A;
+    --secondary-color: #CCE3DE;
+    --green1: #EAF4F4;
+    --green2: #CCE3DE;
+    --green3: #A4C3B2;
+    --green4: #6B9080;
+}
+
+body {
+    font-family: "Times New Roman";
+    background: #e6cfc3;
+    margin: 0px;
+}
+
+h1 {
+    color: #302018;
+}
+
+.btn-primary {
+    padding: 10px 30px;
+    background: #b2c196;
+    color: #282b22;
+    border: none;
+    border-radius: 15px;
+    /* cursor: pointer; */
+    /*   border-width: 1px; */
+}
+
+.btn-primary:hover {
+    background: #daddbe;
+    color: #282b22;
+}
+
+.med-img {
+    width: 12vw;
+    padding-right: 20px;
+}
+.nav-img {
+    width: 5rem;
+    height: auto;
+    padding: 0 10px;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+}
+.nav-img:hover {
+    opacity: 0.5;
+}
+
+.bg-dark {
+    background-color: rgba(22, 46, 32, 0.535) !important;
+}
+
+
+.intro {
+    padding: 15px;
+    display: flex;
+    margin: auto;
+    max-width: 700px;
+
+}
+
+.card {
+    background: #f7efeb;
+    border-radius: 15px;
+    padding: 25px 65px;
+}
+
+.main-header {
+    height: 30vh;
+    background: url("https://i.pinimg.com/originals/f3/73/51/f373514ecab5e4c5470cbe7cc22e5e5f.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-grid {
+    display: flex;
+    padding-bottom: 20px;
+
+}
